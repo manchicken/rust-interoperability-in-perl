@@ -1,0 +1,405 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Alien-Build-2.80
+    pathname: P/PL/PLICEASE/Alien-Build-2.80.tar.gz
+    provides:
+      Alien::Base 2.80
+      Alien::Base::PkgConfig 2.80
+      Alien::Base::Wrapper 2.80
+      Alien::Build 2.80
+      Alien::Build::CommandSequence 2.80
+      Alien::Build::Helper 2.80
+      Alien::Build::Interpolate 2.80
+      Alien::Build::Interpolate::Default 2.80
+      Alien::Build::Interpolate::Helper 2.80
+      Alien::Build::Log 2.80
+      Alien::Build::Log::Abbreviate 2.80
+      Alien::Build::Log::Default 2.80
+      Alien::Build::MM 2.80
+      Alien::Build::Meta 2.80
+      Alien::Build::Plugin 2.80
+      Alien::Build::Plugin::Build::Autoconf 2.80
+      Alien::Build::Plugin::Build::CMake 2.80
+      Alien::Build::Plugin::Build::Copy 2.80
+      Alien::Build::Plugin::Build::MSYS 2.80
+      Alien::Build::Plugin::Build::Make 2.80
+      Alien::Build::Plugin::Build::SearchDep 2.80
+      Alien::Build::Plugin::Core::CleanInstall 2.80
+      Alien::Build::Plugin::Core::Download 2.80
+      Alien::Build::Plugin::Core::FFI 2.80
+      Alien::Build::Plugin::Core::Gather 2.80
+      Alien::Build::Plugin::Core::Legacy 2.80
+      Alien::Build::Plugin::Core::Override 2.80
+      Alien::Build::Plugin::Core::Setup 2.80
+      Alien::Build::Plugin::Core::Tail 2.80
+      Alien::Build::Plugin::Decode::DirListing 2.80
+      Alien::Build::Plugin::Decode::DirListingFtpcopy 2.80
+      Alien::Build::Plugin::Decode::HTML 2.80
+      Alien::Build::Plugin::Decode::Mojo 2.80
+      Alien::Build::Plugin::Digest::Negotiate 2.80
+      Alien::Build::Plugin::Digest::SHA 2.80
+      Alien::Build::Plugin::Digest::SHAPP 2.80
+      Alien::Build::Plugin::Download::Negotiate 2.80
+      Alien::Build::Plugin::Extract::ArchiveTar 2.80
+      Alien::Build::Plugin::Extract::ArchiveZip 2.80
+      Alien::Build::Plugin::Extract::CommandLine 2.80
+      Alien::Build::Plugin::Extract::Directory 2.80
+      Alien::Build::Plugin::Extract::File 2.80
+      Alien::Build::Plugin::Extract::Negotiate 2.80
+      Alien::Build::Plugin::Fetch::CurlCommand 2.80
+      Alien::Build::Plugin::Fetch::HTTPTiny 2.80
+      Alien::Build::Plugin::Fetch::LWP 2.80
+      Alien::Build::Plugin::Fetch::Local 2.80
+      Alien::Build::Plugin::Fetch::LocalDir 2.80
+      Alien::Build::Plugin::Fetch::NetFTP 2.80
+      Alien::Build::Plugin::Fetch::Wget 2.80
+      Alien::Build::Plugin::Gather::IsolateDynamic 2.80
+      Alien::Build::Plugin::PkgConfig::CommandLine 2.80
+      Alien::Build::Plugin::PkgConfig::LibPkgConf 2.80
+      Alien::Build::Plugin::PkgConfig::MakeStatic 2.80
+      Alien::Build::Plugin::PkgConfig::Negotiate 2.80
+      Alien::Build::Plugin::PkgConfig::PP 2.80
+      Alien::Build::Plugin::Prefer::BadVersion 2.80
+      Alien::Build::Plugin::Prefer::GoodVersion 2.80
+      Alien::Build::Plugin::Prefer::SortVersions 2.80
+      Alien::Build::Plugin::Probe::CBuilder 2.80
+      Alien::Build::Plugin::Probe::CommandLine 2.80
+      Alien::Build::Plugin::Probe::Vcpkg 2.80
+      Alien::Build::Plugin::Test::Mock 2.80
+      Alien::Build::PluginMeta 2.80
+      Alien::Build::Temp 2.80
+      Alien::Build::TempDir 2.80
+      Alien::Build::Util 2.80
+      Alien::Build::Version::Basic 2.80
+      Alien::Build::rc 2.80
+      Alien::Role 2.80
+      Alien::Util 2.80
+      Test::Alien 2.80
+      Test::Alien::Build 2.80
+      Test::Alien::CanCompile 2.80
+      Test::Alien::CanPlatypus 2.80
+      Test::Alien::Diag 2.80
+      Test::Alien::Run 2.80
+      Test::Alien::Synthetic 2.80
+      alienfile 2.80
+    requirements:
+      Capture::Tiny 0.17
+      Digest::SHA 0
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 6.64
+      ExtUtils::ParseXS 3.30
+      FFI::CheckLib 0.11
+      File::Which 1.10
+      File::chdir 0
+      JSON::PP 0
+      List::Util 1.33
+      Path::Tiny 0.077
+      PkgConfig 0.14026
+      Test2::API 1.302096
+      Text::ParseWords 3.26
+      parent 0
+      perl 5.008004
+  Alien-Build-Plugin-Download-GitHub-0.10
+    pathname: P/PL/PLICEASE/Alien-Build-Plugin-Download-GitHub-0.10.tar.gz
+    provides:
+      Alien::Build::Plugin::Download::GitHub 0.10
+    requirements:
+      Alien::Build 2.39
+      Alien::Build::Plugin 0
+      Alien::Build::Plugin::Download::Negotiate 0
+      Alien::Build::Plugin::Extract::Negotiate 0
+      ExtUtils::MakeMaker 0
+      JSON::PP 0
+      Path::Tiny 0
+      URI 0
+      YAML 0
+      perl 5.008001
+  Alien-FFI-0.27
+    pathname: P/PL/PLICEASE/Alien-FFI-0.27.tar.gz
+    provides:
+      Alien::FFI 0.27
+    requirements:
+      Alien::Base 2.10
+      Alien::Build 2.10
+      Alien::Build::MM 2.10
+      Alien::Build::Plugin::Download::GitHub 0.09
+      Alien::Build::Plugin::Probe::Vcpkg 0
+      ExtUtils::MakeMaker 6.52
+      perl 5.006
+  Capture-Tiny-0.48
+    pathname: D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz
+    provides:
+      Capture::Tiny 0.48
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec 0
+      File::Temp 0
+      IO::Handle 0
+      Scalar::Util 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Env-ShellWords-0.02
+    pathname: P/PL/PLICEASE/Env-ShellWords-0.02.tar.gz
+    provides:
+      Env::ShellWords 0.02
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      perl 5.006
+  FFI-CheckLib-0.31
+    pathname: P/PL/PLICEASE/FFI-CheckLib-0.31.tar.gz
+    provides:
+      FFI::CheckLib 0.31
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Which 0
+      List::Util 1.33
+      perl 5.006
+  FFI-Platypus-2.08
+    pathname: P/PL/PLICEASE/FFI-Platypus-2.08.tar.gz
+    provides:
+      FFI::Build 2.08
+      FFI::Build::File::Base 2.08
+      FFI::Build::File::C 2.08
+      FFI::Build::File::CXX 2.08
+      FFI::Build::File::Library 2.08
+      FFI::Build::File::Object 2.08
+      FFI::Build::MM 2.08
+      FFI::Build::MM::FBX 2.08
+      FFI::Build::Platform 2.08
+      FFI::Build::Plugin 2.08
+      FFI::Build::Plugin::Foo1 undef
+      FFI::Build::Plugin::Foo2 undef
+      FFI::Build::PluginData 2.08
+      FFI::Platypus 2.08
+      FFI::Platypus::API 2.08
+      FFI::Platypus::Buffer 2.08
+      FFI::Platypus::Bundle 2.08
+      FFI::Platypus::Closure 2.08
+      FFI::Platypus::ClosureData 2.08
+      FFI::Platypus::Constant 2.08
+      FFI::Platypus::DL 2.08
+      FFI::Platypus::Function 2.08
+      FFI::Platypus::Function::Function 2.08
+      FFI::Platypus::Function::Wrapper 2.08
+      FFI::Platypus::Internal 2.08
+      FFI::Platypus::Lang 2.08
+      FFI::Platypus::Lang::ASM 2.08
+      FFI::Platypus::Lang::C 2.08
+      FFI::Platypus::Lang::Win32 2.08
+      FFI::Platypus::Legacy 2.08
+      FFI::Platypus::Memory 2.08
+      FFI::Platypus::Record 2.08
+      FFI::Platypus::Record::Meta 2.08
+      FFI::Platypus::Record::TieArray 2.08
+      FFI::Platypus::ShareConfig 2.08
+      FFI::Platypus::Type 2.08
+      FFI::Platypus::Type::PointerSizeBuffer 2.08
+      FFI::Platypus::Type::StringArray 2.08
+      FFI::Platypus::Type::StringPointer 2.08
+      FFI::Platypus::Type::WideString 2.08
+      FFI::Platypus::TypeParser 2.08
+      FFI::Platypus::TypeParser::Version0 2.08
+      FFI::Platypus::TypeParser::Version1 2.08
+      FFI::Platypus::TypeParser::Version2 2.08
+      FFI::Probe 2.08
+      FFI::Probe::Runner 2.08
+      FFI::Probe::Runner::Builder 2.08
+      FFI::Probe::Runner::Result 2.08
+      FFI::Temp 2.08
+    requirements:
+      Alien::FFI 0.20
+      Capture::Tiny 0
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 7.12
+      ExtUtils::ParseXS 3.30
+      FFI::CheckLib 0.05
+      File::Spec::Functions 0
+      IPC::Cmd 0
+      JSON::PP 0
+      List::Util 1.45
+      autodie 0
+      constant 1.32
+      parent 0
+      perl 5.008004
+  FFI-Platypus-Lang-Rust-0.17
+    pathname: P/PL/PLICEASE/FFI-Platypus-Lang-Rust-0.17.tar.gz
+    provides:
+      FFI::Build::File::Cargo 0.17
+      FFI::Platypus::Lang::Rust 0.17
+    requirements:
+      Env::ShellWords 0
+      ExtUtils::MakeMaker 6.64
+      FFI::Build::File::Base 1.00
+      FFI::Build::MM 1.00
+      FFI::CheckLib 0.11
+      FFI::Platypus 0
+      File::Which 0
+      File::chdir 0
+      Path::Tiny 0
+      base 0
+      perl 5.008001
+  File-Which-1.27
+    pathname: P/PL/PLICEASE/File-Which-1.27.tar.gz
+    provides:
+      File::Which 1.27
+    requirements:
+      ExtUtils::MakeMaker 0
+      base 0
+      perl 5.006
+  File-chdir-0.1011
+    pathname: D/DA/DAGOLDEN/File-chdir-0.1011.tar.gz
+    provides:
+      File::chdir 0.1011
+      File::chdir::ARRAY 0.1011
+      File::chdir::SCALAR 0.1011
+    requirements:
+      Carp 0
+      Cwd 3.16
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec::Functions 3.27
+      perl 5.006
+      strict 0
+      vars 0
+  JSON-4.10
+    pathname: I/IS/ISHIGAKI/JSON-4.10.tar.gz
+    provides:
+      JSON 4.10
+      JSON::Backend::PP 4.10
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+  Path-Tiny-0.144
+    pathname: D/DA/DAGOLDEN/Path-Tiny-0.144.tar.gz
+    provides:
+      Path::Tiny 0.144
+      Path::Tiny::Error 0.144
+    requirements:
+      Carp 0
+      Cwd 0
+      Digest 1.03
+      Digest::SHA 5.45
+      Encode 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 6.17
+      Fcntl 0
+      File::Compare 0
+      File::Copy 0
+      File::Glob 0
+      File::Path 2.07
+      File::Spec 0.86
+      File::Temp 0.19
+      File::stat 0
+      constant 0
+      overload 0
+      perl 5.008001
+      strict 0
+      warnings 0
+      warnings::register 0
+  PkgConfig-0.25026
+    pathname: P/PL/PLICEASE/PkgConfig-0.25026.tar.gz
+    provides:
+      PkgConfig 0.25026
+    requirements:
+      ExtUtils::MakeMaker 6.56
+      Test::More 0.94
+      perl 5.006000
+  URI-5.21
+    pathname: O/OA/OALDERS/URI-5.21.tar.gz
+    provides:
+      URI 5.21
+      URI::Escape 5.21
+      URI::Heuristic 5.21
+      URI::IRI 5.21
+      URI::QueryParam 5.21
+      URI::Split 5.21
+      URI::URL 5.21
+      URI::WithBase 5.21
+      URI::data 5.21
+      URI::file 5.21
+      URI::file::Base 5.21
+      URI::file::FAT 5.21
+      URI::file::Mac 5.21
+      URI::file::OS2 5.21
+      URI::file::QNX 5.21
+      URI::file::Unix 5.21
+      URI::file::Win32 5.21
+      URI::ftp 5.21
+      URI::gopher 5.21
+      URI::http 5.21
+      URI::https 5.21
+      URI::icap 5.21
+      URI::icaps 5.21
+      URI::ldap 5.21
+      URI::ldapi 5.21
+      URI::ldaps 5.21
+      URI::mailto 5.21
+      URI::mms 5.21
+      URI::news 5.21
+      URI::nntp 5.21
+      URI::nntps 5.21
+      URI::pop 5.21
+      URI::rlogin 5.21
+      URI::rsync 5.21
+      URI::rtsp 5.21
+      URI::rtspu 5.21
+      URI::sftp 5.21
+      URI::sip 5.21
+      URI::sips 5.21
+      URI::snews 5.21
+      URI::ssh 5.21
+      URI::telnet 5.21
+      URI::tn3270 5.21
+      URI::urn 5.21
+      URI::urn::isbn 5.21
+      URI::urn::oid 5.21
+    requirements:
+      Carp 0
+      Cwd 0
+      Data::Dumper 0
+      Encode 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      MIME::Base64 2
+      Net::Domain 0
+      Scalar::Util 0
+      constant 0
+      integer 0
+      overload 0
+      parent 0
+      perl 5.008001
+      strict 0
+      utf8 0
+      warnings 0
+  YAML-1.30
+    pathname: T/TI/TINITA/YAML-1.30.tar.gz
+    provides:
+      YAML 1.30
+      YAML::Any 1.30
+      YAML::Dumper undef
+      YAML::Dumper::Base undef
+      YAML::Error undef
+      YAML::Loader undef
+      YAML::Loader::Base undef
+      YAML::Marshall undef
+      YAML::Mo undef
+      YAML::Node undef
+      YAML::Tag undef
+      YAML::Type::blessed undef
+      YAML::Type::code undef
+      YAML::Type::glob undef
+      YAML::Type::ref undef
+      YAML::Type::regexp undef
+      YAML::Type::undef undef
+      YAML::Types undef
+      YAML::Warning undef
+      yaml_mapping undef
+      yaml_scalar undef
+      yaml_sequence undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
