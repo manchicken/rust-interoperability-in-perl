@@ -15,6 +15,14 @@ These C libraries are needed:
 
 You will also need a Rust environment. If you don't know how to set this up yet, consider using [rustup](https://rustup.rs/).
 
+You'll also need to install Carton:
+
+```sh
+cpan Carton
+```
+
+(`cpanm` will work, too, if you have `App::Cpanminus` installed)
+
 ## Running
 
 ### Short version
@@ -41,8 +49,8 @@ The scripts themselves are just in the top-level directory, with a `.pl` extensi
 
 ## The tests
 
-- Simple adding of two integers
-- Upper-casing a string
-- Using an opaque pointer in Perl
-- Using Tokio async
-- Invoking a Perl callback
+- Simple adding of two integers (`add_two.pl`)
+- Upper-casing a string (`upper_string.pl`)
+- Using an opaque pointer in Perl (`opaque_kvp.pl`)
+- Using Tokio async (TBD)
+- Invoking a Perl callback (TBD)
