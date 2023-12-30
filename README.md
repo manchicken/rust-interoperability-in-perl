@@ -38,3 +38,11 @@ Carton will install the modules in a directory called `local` in the working dir
 The `rust-part` folder contains a normal Rust program, but it's a `cdylib` crate so it'll produce a `.so` file.
 
 The scripts themselves are just in the top-level directory, with a `.pl` extension.
+
+## The tests
+
+- Simple adding of two integers
+- Upper-casing a string
+- Using an opaque pointer in Perl
+- Using Tokio async
+- Invoking a Perl callback

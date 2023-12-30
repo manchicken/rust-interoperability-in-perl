@@ -9,3 +9,5 @@ crate_type = ["cdylib"]
 
 
 [dependencies]
+async-ffi = { version = "0.5.0", features = ["macros", "abi_stable"] }
+libc = "0.2.151"
